@@ -1,0 +1,33 @@
+#main{
+
+  height: 600px;
+  width: 600px;
+  position: relative;
+
+  border: 10px solid green;
+  background-image: url("6.png");
+
+}
+#snake{
+
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+  z-index: 100;
+  position:absolute;
+
+}
+#food{
+  background-image: url("food1.jpg");
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+#score{
+  background-color:#99e600;
+  height: 30px;
+  width: 600px;
+  text-align: center;
+border:10px solid green;
+
+}
